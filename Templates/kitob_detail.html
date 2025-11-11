@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Batafsil</title>
+</head>
+<body>
+    <div style="text-align: center; border: 2px solid red" >
+        <h2>{{ book.title}} kitobi haqida batafsil ma'lumot</h2>
+    </div>
+    <div style="text-align: center;">
+        Kitob nomi: {{book.title}} <br>
+        Kitob tavsifi: {{ book.description }} <br>
+        Sahifalar soni: {{ book.pages }} <br>
+        Kitob holati: {{ book.is_new }} <br>
+        <div style="display: flex; justify-content: center;">Kirob narxi:<div style="border: 1px solid green">{{ book.price }}</div></div>
+        <div style="display: flex; justify-content: center;">Kirob aftori:<div style="border: 1px solid blue">{{ book.author }}</div></div>
+    </div>
+
+</body>
+</html>
